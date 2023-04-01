@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/lily.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#content{
+    background:(142, 225, 230, 0.5);
+    width: 50%;
+    height: 78%;
+    top: 50%;
+    left: 8%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;  
+    border: 2px #fff;
+}
+
+#content h1{ 
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    stroke: black;
+    stroke-width: 25%;
+}
+#content h2{ 
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 25%;
+        
+
+}
+
+#content input{
+    height: 20px;
+    width: 20%;
+    margin-bottom: 8px;
+    margin-right: 50%; 
+    margin-left: 25%; 
+    margin-top: 5px;
+}
+
+#content label{
+    font-size: 15px;
+    text-align: 30px;
+    
+    
+}
+
+.btn {
+    outline: none;
+    width: 25%;
+    height: 40px;
+    margin-left: 155px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #c1dad1;
+    cursor: pointer;
+    border-radius: 30px;
+    background: transparent;
+    transition: background 0.4s;
+
+}
+.btn:hover{
+        background: #0a0a0a;
+      
+      
+}
